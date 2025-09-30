@@ -8,7 +8,7 @@ class Node():                      # Ye ek Node class hai, socho maze ke har poi
 
 class StackFrontier():             # Ye StackFrontier class hai, LIFO principle follow karti hai, yani jo last aaya wo pehle niklega
     def _init_(self):
-        self.frontier = []         # Frontier ek list hai, jisme nodes store karte hain
+        self.frontier = []         # Frontier ek list hai, jisme nodes store karte hain 
 
     def add(self, node):           # Frontier mein naya node add karne ke liye
         self.frontier.append(node)
